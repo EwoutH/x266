@@ -9,7 +9,7 @@ It is demonstration research of industrialized implement video coding H.266. as 
 _x266 based on Software/Hardware Cooperative concept and custom RISC-V processor with audio/video/image/deep_learning SIMD extension._
 
 
-Building
+Building  [![Travis Build Status](https://travis-ci.org/chenm001/x266.svg?branch=master)](https://travis-ci.org/chenm001/x266)
 ========
 
 - RISC-V<br>

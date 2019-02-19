@@ -1,0 +1,20 @@
+language: cpp
+dist: xenial
+
+addons:
+  apt:
+    packages:
+     - cmake
+
+script:
+ - cd build
+ - make
+ - make test
+
+jobs:
+  include:
+    - name: "Linux GCC"
+    - name: "Linux Clang"
+      compiler: clang
+    - name: "macOS GCC"
+      os: osx
